@@ -1,6 +1,6 @@
-FROM haproxy:1.5
-MAINTAINER 40huo
+FROM haproxy:latest
+MAINTAINER sohunjug
 
-EXPOSE 40001 40002 40003
+EXPOSE 8888 8889 8890
 
 COPY haproxy.cfg /usr/local/etc/haproxy/haproxy.cfg
